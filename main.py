@@ -455,7 +455,7 @@ class Game:
         self.live_img = pygame.transform.scale(self.live_img, (20, 23))
         n = 0
         for i in range(self.lives):
-            screen.blit(self.live_img, (0 + n, s_height - 760))
+            screen.blit(self.live_img, (0 + n, s_height - 765))
             n += 60
 
     def create_score(self):
