@@ -1,7 +1,7 @@
 from ctypes.wintypes import PULARGE_INTEGER
 from email.mime import image
 from errno import ENETRESET
-import imp
+import importlib
 from json.encoder import ESCAPE
 import sys
 import random
